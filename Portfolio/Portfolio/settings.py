@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 注册我的APP
+    # 注册我的APP,只需要写一个app的名字
     'gallery.apps.GalleryConfig',    
+    'blog',
 ]
 
 MIDDLEWARE = [
